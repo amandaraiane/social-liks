@@ -1,0 +1,108 @@
+/*===================== GERAL ====================*/
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-size: 62.5%;
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--body-bg-color);
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding-top: 8rem;
+}
+
+/*===================== INFO USER ====================*/
+.container .user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.container .user-info .user-image{
+    border-radius: 50%;
+    border: 0.2rem solid var(--purple);
+    padding: 0.5rem;
+    max-width: 20rem;
+}
+
+.container .user-info .user-link{
+    font-weight: 300;
+}
+
+.container .user-info .user-link a{
+    color: var(--purple);    
+    text-decoration: none;
+    transition: opacity .5s;
+}
+
+.container .user-info .user-link a:hover{
+    opacity: 0.7;
+}
+
+/*===================== LINKS ====================*/
+.container .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .links .links-list .item {
+    border: 0.2rem solid var(--purple);
+    margin: 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.container .links .links-list .item a{
+    display: block;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: 600;
+    padding-block: 1rem;
+    padding-inline: 9rem;
+    transition: background-color .5s;
+}
+
+.container .links .links-list .item a:hover{
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+/*===================== ICONS ====================*/
+.container .icons-box{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.container .icons-box a{
+    transition: opacity .5s;
+}
+
+.container .icons-box a:hover{
+    opacity: 0.7;
+}
