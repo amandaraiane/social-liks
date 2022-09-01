@@ -29,6 +29,7 @@ body{
     margin: 0 auto;
     font-size: 1.6rem;
     padding-top: 8rem;
+    height: max-content
 }
 
 /*===================== INFO USER ====================*/
@@ -96,7 +97,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 3rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .container .icons-box a{
